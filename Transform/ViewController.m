@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "UserGuidView.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+ 
+    UserGuidView * guidView = [[UserGuidView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
+    [self.view addSubview:guidView];
 }
 
 

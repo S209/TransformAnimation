@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0578A5A11F3D82AB00392915 /* UserGuidView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0578A5A01F3D82AB00392915 /* UserGuidView.m */; };
+		0578A5A41F3D83E100392915 /* UIColor+Appearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 0578A5A31F3D83E100392915 /* UIColor+Appearance.m */; };
 		05A648631E13DA8B00E1ED30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A648621E13DA8B00E1ED30 /* main.m */; };
 		05A648661E13DA8B00E1ED30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A648651E13DA8B00E1ED30 /* AppDelegate.m */; };
 		05A648691E13DA8B00E1ED30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A648681E13DA8B00E1ED30 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0578A59F1F3D82AB00392915 /* UserGuidView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserGuidView.h; sourceTree = "<group>"; };
+		0578A5A01F3D82AB00392915 /* UserGuidView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserGuidView.m; sourceTree = "<group>"; };
+		0578A5A21F3D83E100392915 /* UIColor+Appearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Appearance.h"; sourceTree = "<group>"; };
+		0578A5A31F3D83E100392915 /* UIColor+Appearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Appearance.m"; sourceTree = "<group>"; };
 		05A6485E1E13DA8B00E1ED30 /* Transform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A648621E13DA8B00E1ED30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		05A648641E13DA8B00E1ED30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,6 +107,10 @@
 		05A648601E13DA8B00E1ED30 /* Transform */ = {
 			isa = PBXGroup;
 			children = (
+				0578A5A21F3D83E100392915 /* UIColor+Appearance.h */,
+				0578A5A31F3D83E100392915 /* UIColor+Appearance.m */,
+				0578A59F1F3D82AB00392915 /* UserGuidView.h */,
+				0578A5A01F3D82AB00392915 /* UserGuidView.m */,
 				05A648641E13DA8B00E1ED30 /* AppDelegate.h */,
 				05A648651E13DA8B00E1ED30 /* AppDelegate.m */,
 				05A648671E13DA8B00E1ED30 /* ViewController.h */,
@@ -278,7 +288,9 @@
 			files = (
 				05A648691E13DA8B00E1ED30 /* ViewController.m in Sources */,
 				05A648661E13DA8B00E1ED30 /* AppDelegate.m in Sources */,
+				0578A5A11F3D82AB00392915 /* UserGuidView.m in Sources */,
 				05A648631E13DA8B00E1ED30 /* main.m in Sources */,
+				0578A5A41F3D83E100392915 /* UIColor+Appearance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +526,7 @@
 				05A6488D1E13DA8C00E1ED30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05A6488E1E13DA8C00E1ED30 /* Build configuration list for PBXNativeTarget "TransformTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +535,7 @@
 				05A648901E13DA8C00E1ED30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05A648911E13DA8C00E1ED30 /* Build configuration list for PBXNativeTarget "TransformUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +544,7 @@
 				05A648931E13DA8C00E1ED30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
